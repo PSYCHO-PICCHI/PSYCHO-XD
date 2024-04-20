@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("hacking").chk()
+    __import__("Hacking").chk()
 except Exception as e:
     exit(str(e))     
